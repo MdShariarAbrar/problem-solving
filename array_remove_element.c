@@ -11,6 +11,7 @@ int main() {
     for(int i = idx; i<n; i++) {
         arr[i] = arr[i+1];
     }
+    n--;
 
     for(int i=0; i<n; i++) {
         printf("%d ", arr[i]);
